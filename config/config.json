@@ -1,0 +1,18 @@
+{	
+	"data": "./data/bbc-text.csv",
+	"label_col" : "category",
+	"text_col" : "text",
+	"batch_size": 32,
+	"seq_len": 200,
+	"train_test_split_ratio":0.8,
+	"use_exist_model": {
+		"use_or_not":false,
+		"model_dir":""
+	},
+	"epochs":10,
+	"save_dir": "./saved_model",
+	"use_model_classify":{
+		"user_or_not":true,
+		"model_dir":"./saved_model/22122019-231807-e10.h5"
+	}
+}
